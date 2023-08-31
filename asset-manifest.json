@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pwc/static/css/main.642178c4.css",
+    "main.js": "/pwc/static/js/main.11de5fb1.js",
+    "static/media/lagos2.jpg": "/pwc/static/media/lagos2.8d958e923493763ed0ec.jpg",
+    "static/media/mrbeast.svg": "/pwc/static/media/mrbeast.59e38fb2506d15d6a0c1df9c2b7c2042.svg",
+    "static/media/logo.jpg": "/pwc/static/media/logo.74d8becae0d64c84b9ad.jpg",
+    "static/media/budweiser.svg": "/pwc/static/media/budweiser.ec6eacc41fa2e691df47edc08097aa02.svg",
+    "static/media/barstool-store.svg": "/pwc/static/media/barstool-store.b7b138c1aa088322f4e919539f27615a.svg",
+    "static/media/macys.svg": "/pwc/static/media/macys.abbc3a769cf9751b58ef8a2d6b0e0d21.svg",
+    "static/media/menshealth.svg": "/pwc/static/media/menshealth.c2561ec1e64a0d09b5b0f9518bf90f10.svg",
+    "static/media/buzzfeed.svg": "/pwc/static/media/buzzfeed.cd436490336a05b5e1deb66110a78086.svg",
+    "static/media/health.webp": "/pwc/static/media/health.2f91ad080ab71188dfe7.webp",
+    "static/media/forbes.svg": "/pwc/static/media/forbes.72bf8353b1e4e83f5c1f790e17281702.svg",
+    "static/media/seviceIcon.webp": "/pwc/static/media/seviceIcon.4ab6618d59691bf533b6.webp",
+    "static/media/marketing.webp": "/pwc/static/media/marketing.af686ee4d5e124b749a9.webp",
+    "index.html": "/pwc/index.html",
+    "static/media/3m.svg": "/pwc/static/media/3m.d7acabe2e895350e0b3c8ffe411de55c.svg",
+    "main.642178c4.css.map": "/pwc/static/css/main.642178c4.css.map",
+    "main.11de5fb1.js.map": "/pwc/static/js/main.11de5fb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.642178c4.css",
+    "static/js/main.11de5fb1.js"
+  ]
+}
