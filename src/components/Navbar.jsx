@@ -53,7 +53,7 @@ function Navbar() {
         </div>
       </div>
       <div
-        className={`fixed inset-0 top-[8%] transform ${
+        className={`fixed inset-0 top-[79px] transform ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         } z-50 bg-gray-800 bg-opacity-75 transition-transform duration-300 ease-in-out`}
       >
