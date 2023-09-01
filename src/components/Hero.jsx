@@ -11,13 +11,13 @@ function Hero() {
             <span className="font-semibold"> YOUR BUSINESS.</span>
           </h3>
           <p className="text-xl">That's What We Do at PW Consult</p>
-          <p>
+          <p className="!mb-[1rem]">
             We’re a premium accounting and advisory firm trusted for several
             years. Our clients have been turning to our high-calibre team of
             chartered accountants and strategic advisors – generation after
             generation.
           </p>
-          <button className="bg-[#0D1A3C] p-4 uppercase">About PW Consult</button>
+          <a href="#about"><button className="bg-[#0D1A3C] p-4 uppercase">About PW Consult</button></a>
         </div>
       </div>
     </div>

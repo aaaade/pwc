@@ -4,13 +4,13 @@ function About() {
   return (
     <div id="about">
       <div className="w-[80%] mx-auto py-[3rem] grid grid-cols-1 md:grid-cols-4 gap-[1rem]">
-        <div>
+        <div data-aos="fade-right" data-aos-duration="1500">
           <h3 className="text-2xl font-medium text-[#009FE3] mb-[.5rem] border-b border-[#0D1A3C] pb-1 w-fit">
             About us
           </h3>
           <p className="text-[.8rem]">Get to know us better</p>
         </div>
-        <div className="md:col-span-3 space-y-[2rem]">
+        <div data-aos="fade-left" data-aos-duration="1500" className="md:col-span-3 space-y-[2rem]">
           <p>
             We are a collaborative fusion of dynamic, creative and experienced
             professionals offering a variety of consulting financial advisory

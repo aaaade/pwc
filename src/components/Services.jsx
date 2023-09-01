@@ -9,7 +9,7 @@ function Services() {
   return (
     <div id="services">
       <div className="w-[80%] mx-auto py-[3rem] grid grid-cols-1 md:grid-cols-4 gap-[1rem]">
-        <div>
+        <div data-aos="fade-right" data-aos-duration="1500">
           <h3 className="text-2xl font-medium text-[#009FE3] mb-[.5rem] border-b border-[#0D1A3C] pb-1 w-fit">
             Our Services
           </h3>
@@ -80,14 +80,14 @@ const serviceList = [
   {
     id: 8,
     icon: serviceIcon,
-    title: "Farming & Agriculture",
+    title: "Agriculture",
     text: "Our clients operate from the major nodes of the agriculture value chain. Production, haulage, storage, aggregation/commodity trading, processing & packaging. Our services include accounting, internal control design and deployment, tax planning, tax compliance, and financial advisory business plan, and financial model preparation for funding purposes.",
   },
 ];
 
 const Cards = ({ icon, title, text }) => {
   return (
-    <div className="hover:bg-[#F9F9F9] p-4">
+    <div data-aos="fade-up" data-aos-duration="1500" className="hover:bg-[#F9F9F9] p-4">
       <div className="w-[3rem] mb-[2rem]">
         <img src={icon} alt="" />
       </div>

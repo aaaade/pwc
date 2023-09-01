@@ -14,6 +14,7 @@
   height: 87.8vh;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Animate slide styling */

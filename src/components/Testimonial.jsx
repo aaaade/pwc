@@ -28,14 +28,6 @@ function Testimonial() {
             <img src={menshealth} alt="" />
             <img src={macys} alt="" />
             <img src={mrbeast} alt="" />
-            <img src={m} alt="" />
-            <img src={mbarstool} alt="" />
-            <img src={budweiser} alt="" />
-            <img src={buzzfeed} alt="" />
-            <img src={forbes} alt="" />
-            <img src={menshealth} alt="" />
-            <img src={macys} alt="" />
-            <img src={mrbeast} alt="" />
           </div>
         </div>
       </div>

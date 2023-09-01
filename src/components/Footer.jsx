@@ -1,5 +1,9 @@
 import React from "react";
 import logo from "../images/logo.jpg";
+import fb from "../images/fb.png";
+import insta from "../images/insta.png";
+import tw from "../images/tw.png";
+import link from "../images/link.png";
 
 function Footer() {
   return (
@@ -38,8 +42,35 @@ function Footer() {
         </div>
         <div>
           <h3 className="text-2xl font-semibold">Social Media Links</h3>
-          <div>
-            <ul className="flex gap-1 text-white cursor-pointer font-normal text-[.8rem]"></ul>
+          <div className="mt-[1rem]">
+            <ul className="flex items-center gap-[3rem] text-white cursor-pointer font-normal text-[.8rem]">
+              <li>
+                <a
+                  href="https://www.facebook.com/PortersWorldConsult/?modal=admin_todo_tour"
+                  _target="blank"
+                >
+                  <img src={fb} alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/pwconsult/" _target="blank">
+                  <img src={insta} alt="" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/porter's-world-consult/"
+                  _target="blank"
+                >
+                  <img src={link} alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/PWConsult_" _target="blank">
+                  <img src={tw} alt="" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
