@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Tiag from "./components/Tiag";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Services />
       <Testimonial />
+      <Tiag/>
       <Footer />
     </div>
   );
