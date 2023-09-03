@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/pwc/static/css/main.52508efd.css",
-    "main.js": "/pwc/static/js/main.72eb13c7.js",
+    "main.js": "/pwc/static/js/main.c8fb6e82.js",
     "static/media/lagos2.jpg": "/pwc/static/media/lagos2.8d958e923493763ed0ec.jpg",
+    "static/media/tiag.png": "/pwc/static/media/tiag.4624291ee91e37ae2a46.png",
+    "static/media/logo.png": "/pwc/static/media/logo.239252594924efc46e97.png",
     "static/media/mrbeast.svg": "/pwc/static/media/mrbeast.59e38fb2506d15d6a0c1df9c2b7c2042.svg",
     "static/media/logo.jpg": "/pwc/static/media/logo.74d8becae0d64c84b9ad.jpg",
     "static/media/budweiser.svg": "/pwc/static/media/budweiser.ec6eacc41fa2e691df47edc08097aa02.svg",
@@ -17,10 +19,10 @@
     "index.html": "/pwc/index.html",
     "static/media/3m.svg": "/pwc/static/media/3m.d7acabe2e895350e0b3c8ffe411de55c.svg",
     "main.52508efd.css.map": "/pwc/static/css/main.52508efd.css.map",
-    "main.72eb13c7.js.map": "/pwc/static/js/main.72eb13c7.js.map"
+    "main.c8fb6e82.js.map": "/pwc/static/js/main.c8fb6e82.js.map"
   },
   "entrypoints": [
     "static/css/main.52508efd.css",
-    "static/js/main.72eb13c7.js"
+    "static/js/main.c8fb6e82.js"
   ]
 }
