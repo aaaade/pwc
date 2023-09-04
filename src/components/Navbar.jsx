@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../images/logo.jpg";
+import logo from "../images/logo.png";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ function Navbar() {
               <img src={logo} alt="" />
             </div>
             <p className="hidden md:block font-medium text-[1rem] leading-5">
-              PW <br />
+              PW 
               Consult
             </p>
           </div>

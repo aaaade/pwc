@@ -5,7 +5,7 @@ function Hero() {
     <div className="hero relative" id="home">
       <div className="absolute bg-[#00000020] inset-0"></div>
       <div className="w-[90%] md:w-[80%] mx-auto h-[87.8vh] flex items-center">
-        <div className="bg-[#009FE3] opacity-80 p-8 text-white max-w-[45rem] space-y-[1rem]">
+        <div className="bg-[#009FE3] opacity-90 p-8 text-white max-w-[45rem] space-y-[1rem]">
           <h3 className=" font-medium text-2xl">
             Tax, Accounting & Finanacial Advisory Services For <br />
             <span className="font-semibold"> YOUR BUSINESS.</span>

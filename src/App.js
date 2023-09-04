@@ -8,6 +8,7 @@ import Testimonial from "./components/Testimonial";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Tiag from "./components/Tiag";
+import Copyright from "./components/Copyright";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Testimonial />
       <Tiag/>
       <Footer />
+      <Copyright/>
     </div>
   );
 }

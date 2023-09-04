@@ -8,7 +8,7 @@ import link from "../images/link.png";
 function Footer() {
   return (
     <div className="bg-[#0D1A3C] shadow-xl px-[2rem] py-[4rem] text-white">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-[4rem]">
+      <div className="flex flex-col md:flex-row justify-between gap-[4rem]">
         <div>
           <h3 className="text-2xl font-semibold">Porter's World Consult</h3>
           <p>Solutions For Every Type Of Business.</p>
