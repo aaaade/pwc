@@ -30,7 +30,7 @@ function Testimonial() {
           <h3 className="text-2xl font-medium text-[#009FE3] mb-[.5rem] border-b border-[#0D1A3C] pb-1">
             Trusted Across Various Industries
           </h3>
-          <p className="text-[.8rem] text-center">Know our worth and value</p>
+          <p className="text-[.8rem] text-center mb-4">Know our worth and value</p>
         </div>
           <OwlCarousel className="owl-theme" {...options}>
             <div className="bg-[#f1f5f6] p-8 text-[#666566]">
