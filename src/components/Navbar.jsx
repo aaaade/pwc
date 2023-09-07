@@ -8,7 +8,7 @@ function Navbar() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <div className="bg-[#0D1A3C] shadow-xl px-[2rem] py-[1rem] sticky top-0 z-[100]">
+    <div className="bg-[#0D1A3C] shadow-xl px-[6rem] py-[1rem] sticky top-0 z-[100]">
       <div className=" flex justify-between items-center">
         <div className="flex gap-3 items-center">
           <div className="flex gap-4 items-center text-white md:border-r-2 border-white pr-4">
@@ -81,4 +81,4 @@ function Navbar() {
 
 export default Navbar;
 
-const navLinkList = ["home", "about", "services", "testimonial", "blog"];
+const navLinkList = ["home", "about", "services", "testimonial"];
