@@ -17,8 +17,7 @@ function Footer() {
           <p>Solutions For Every Type Of Business.</p>
           <p className="mt-[.5rem] text-[.8rem]">
             3rd Floor, NSE Building, 1, Engineering Close, <br />
-            Victoria Island, Lagos state, Nigeria <br /> and other african
-            countries.
+            Victoria Island, Lagos state, Nigeria
           </p>
         </div>
         <div>
