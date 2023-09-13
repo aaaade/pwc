@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
 * {
   font-family: "Libre Franklin", sans-serif;
   scroll-behavior: smooth;
@@ -10,11 +12,15 @@
 
 
 .hero {
-  background-image: url("./images/lagos2.jpg");
+  background-image: url("./images/newhero.jpg");
   height: 87.8vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.heroTitle {
+  font-family: 'Lato', sans-serif;
 }
 
 /* Animate slide styling */
@@ -68,4 +74,11 @@
 .logos-slide img {
   height: 50px;
   margin: 0 40px;
+}
+
+#testimonials .owl-prev,
+#testimonials .owl-next {
+  font-size: 30px !important;
+  padding: 0px 10px !important;
+  /* color: white !important; */
 }

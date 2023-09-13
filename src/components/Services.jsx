@@ -1,9 +1,12 @@
 import React from "react";
-import serviceIcon from "../images/seviceIcon.webp";
-import marketing from "../images/marketing.webp";
-import health from "../images/health.webp";
-import estate from "../images/estate.png";
-import energy from "../images/energy.png";
+import profeesional from "../images/professional.png";
+import marketing from "../images/Marketing.png";
+import health from "../images/Health.png";
+import estate from "../images/RealEstate.png";
+import energy from "../images/Energy.png";
+import entertain from "../images/Entertainment.png";
+import arg from "../images/Agriculture.png";
+import food from "../images/Food.png";
 
 function Services() {
   return (
@@ -37,7 +40,7 @@ export default Services;
 const serviceList = [
   {
     id: 1,
-    icon: serviceIcon,
+    icon: profeesional,
     title: "Professional Services",
     text: "Law, architectural, insurance brokerage, consulting, and fintech firms. We assisted with setting up accounting, internal control, and tax compliance systems. We also provided financial advisory services required during funding rounds to some of these clients.",
   },
@@ -49,7 +52,7 @@ const serviceList = [
   },
   {
     id: 3,
-    icon: serviceIcon,
+    icon: entertain,
     title: "Entertainment Industry",
     text: "Advert production, music album production, and concerts are a few of what our clients are engaged in. Our financial advisory service has helped our clients understand how to strategically place their business to ensure they are profitable.",
   },
@@ -67,7 +70,7 @@ const serviceList = [
   },
   {
     id: 6,
-    icon: serviceIcon,
+    icon: food,
     title: "Food and Hospitality",
     text: "Accounting, internal control, and tax services to ala carte and boutique restaurants. Because we understand this industry, we have been able to design internal controls that are most suitable to our clients’ operations and adequate for record-keeping purposes.",
   },
@@ -79,7 +82,7 @@ const serviceList = [
   },
   {
     id: 8,
-    icon: serviceIcon,
+    icon: arg,
     title: "Agriculture",
     text: "Our clients operate from the major nodes of the agriculture value chain. Production, haulage, storage, aggregation/commodity trading, processing & packaging. Our services include accounting, internal control design and deployment, tax planning, tax compliance, and financial advisory business plan, and financial model preparation for funding purposes.",
   },

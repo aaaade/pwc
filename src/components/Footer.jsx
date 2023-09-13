@@ -7,7 +7,10 @@ import link from "../images/link.png";
 
 function Footer() {
   return (
-    <div className="bg-[#0D1A3C] shadow-xl px-[6rem] py-[4rem] text-white">
+    <div
+      className="bg-[#0D1A3C] shadow-xl px-[2rem] md:px-[6rem] py-[4rem] text-white"
+      id="footer"
+    >
       <div className="flex flex-col md:flex-row justify-between gap-[4rem]">
         <div>
           <h3 className="text-2xl font-semibold">Porter's World Consult</h3>
@@ -47,26 +50,36 @@ function Footer() {
               <li>
                 <a
                   href="https://www.facebook.com/PortersWorldConsult/?modal=admin_todo_tour"
-                  _target="blank"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={fb} alt="" />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/pwconsult/" _target="blank">
+                <a
+                  href="https://www.instagram.com/pwconsult/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={insta} alt="" />
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/company/porter's-world-consult/"
-                  _target="blank"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={link} alt="" />
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/PWConsult_" _target="blank">
+                <a
+                  href="https://twitter.com/PWConsult_"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={tw} alt="" />
                 </a>
               </li>

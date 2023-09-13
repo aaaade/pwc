@@ -25,7 +25,7 @@ function Testimonial() {
   return (
     <div className="my-[3rem]" id="testimonials">
       <div className="app-container">
-        <div className="mx-auto w-full md:w-[80%]">
+        <div className="mx-auto w-[80%]">
         <div className="w-fit mx-auto">
           <h3 className="text-2xl font-medium text-[#009FE3] mb-[.5rem] border-b border-[#0D1A3C] pb-1">
             Trusted Across Various Industries
@@ -33,7 +33,7 @@ function Testimonial() {
           <p className="text-[.8rem] text-center mb-4">Know our worth and value</p>
         </div>
           <OwlCarousel className="owl-theme" {...options}>
-            <div className="bg-[#f1f5f6] p-8 text-[#666566]">
+            <div className="bg-[#f1f5f6] p-2 md:p-8 text-[#666566]">
               <q className="italic text-[#666566]">
                 After I was wrongfully terminated as CEO, I asked several very
                 knowledgeable legal professionals for names of the best
@@ -55,7 +55,7 @@ function Testimonial() {
               <br />
               <strong>A.F., CEO of (another) Technology company</strong>
             </div>
-            <div className="bg-[#f1f5f6] p-8 text-[#666566]">
+            <div className="bg-[#f1f5f6] p-2 md:p-8 text-[#666566]">
               <q className="italic text-[#666566]">
                 After I was wrongfully terminated as CEO, I asked several very
                 knowledgeable legal professionals for names of the best

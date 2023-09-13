@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../images/logo.png";
+import logo from "../images/logo1.jpg";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -8,10 +8,10 @@ function Navbar() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <div className="bg-[#0D1A3C] shadow-xl px-[6rem] py-[1rem] sticky top-0 z-[100]">
+    <div className="bg-[#FFFFFF] shadow-xl px-[2rem] md:px-[6rem] py-[1rem] sticky top-0 z-[100]">
       <div className=" flex justify-between items-center">
         <div className="flex gap-3 items-center">
-          <div className="flex gap-4 items-center text-white md:border-r-2 border-white pr-4">
+          <div className="flex gap-4 items-center text-[#0D1A3C] md:border-r-2 border-[#0D1A3C] pr-4">
             <div className="w-[3rem]">
               <img src={logo} alt="" />
             </div>
@@ -20,7 +20,7 @@ function Navbar() {
               Consult
             </p>
           </div>
-          <p className="hidden md:block text-white text-[.8rem] leading-4 font-extralight">
+          <p className="hidden md:block text-[#0D1A3C] text-[.8rem] leading-4 font-extralight">
             Tax <br />
             Accounting &<br />
             Financial Advisory
@@ -29,7 +29,7 @@ function Navbar() {
         <nav>
           <ul className="hidden md:flex gap-4 text-white cursor-pointer font-normal">
             {navLinkList?.map((link) => (
-              <li className="hover:text-[#009FE3] capitalize" key={link}>
+              <li className="hover:text-[#009FE3] text-[#0D1A3C] capitalize" key={link}>
                 <a href={`#${link}`}>{link}</a>
               </li>
             ))}
@@ -38,16 +38,16 @@ function Navbar() {
         <div className="block  cursor-pointer md:hidden">
           {isMobileMenuOpen ? (
             <button
-              className="text-5xl font-bold text-white"
+              className="text-5xl font-bold text-[#0D1A3]"
               onClick={toggleMobileMenu}
             >
               &times;
             </button>
           ) : (
             <button onClick={toggleMobileMenu} className="space-y-1">
-              <span className="block h-1 w-8 rounded-md bg-white"></span>
-              <span className="block h-1 w-8 rounded-md bg-white"></span>
-              <span className="block h-1 w-8 rounded-md bg-white"></span>
+              <span className="block h-1 w-8 rounded-md bg-[#0D1A3C]"></span>
+              <span className="block h-1 w-8 rounded-md bg-[#0D1A3C]"></span>
+              <span className="block h-1 w-8 rounded-md bg-[#0D1A3C]"></span>
             </button>
           )}
         </div>
@@ -62,7 +62,7 @@ function Navbar() {
             {navLinkList.map((link) => (
               <li
                 key={link}
-                className="text-[1.1rem] font-light uppercase text-black hover:text-[#067CA6]"
+                className="text-[1.1rem] font-light uppercase text-[#0D1A3C] hover:text-[#067CA6]"
               >
                 <a
                   href={`#${link.replace(" ", "")}`}
