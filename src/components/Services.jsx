@@ -11,8 +11,8 @@ import food from "../images/Food.png";
 function Services() {
   return (
     <div id="services">
-      <div className="w-[80%] mx-auto py-[3rem] grid grid-cols-1 md:grid-cols-4 gap-[1rem]">
-        <div data-aos="fade-right" data-aos-duration="1500">
+      <div className="w-[80%] mx-auto py-[3rem] grid grid-cols-1 md:grid-cols-5 gap-[0rem]">
+        <div data-aos="fade-right" data-aos-duration="1500" className="w-fit">
           <h3 className="text-2xl font-medium text-[#009FE3] mb-[.5rem] border-b border-[#0D1A3C] pb-1 w-fit">
             Our Services
           </h3>
@@ -20,7 +20,7 @@ function Services() {
             Solutions Built For Every <br /> Type Of Business.
           </p>
         </div>
-        <div className="md:col-span-3 grid grid-cols-1 lg:grid-cols-3 gap-[1rem] gap-y-[2rem]">
+        <div className="md:col-span-4 grid grid-cols-1 lg:grid-cols-3 gap-[1rem] gap-y-[2rem]">
           {serviceList.map((list) => (
             <Cards
               key={list.id}
@@ -42,49 +42,49 @@ const serviceList = [
     id: 1,
     icon: profeesional,
     title: "Professional Services",
-    text: "Law, architectural, insurance brokerage, consulting, and fintech firms. We assisted with setting up accounting, internal control, and tax compliance systems. We also provided financial advisory services required during funding rounds to some of these clients.",
+    text: "we specialize in delivering comprehensive financial solutions tailored to the unique needs of various industries, including law, architectural, insurance brokerage, consulting, and fintech firms. Our expert team is committed to enhancing the financial health and sustainability of your business through a range of specialized services like accounting, internal control enhancement, and tax compliance. We also provide invaluable financial advisory services required during funding rounds and critical financial milestones.",
   },
   {
     id: 2,
     icon: estate,
     title: "Real Estate & Property Development",
-    text: "Design and deployment of accounting and internal control systems, tax compliance including Value Added Taxes, Withholding Taxes and Employee related taxes.",
+    text: "We design and deploy a range of financial solutions tailored to the unique needs of real estate firms and property developers. Among these are accounting and internal control systems, comprehensive guidance on tax compliance including Value Added Taxes (VAT), Withholding Taxes, and Employee related taxes. Our team of experts ensures that all tax obligations are met while also identifying opportunities to maximize tax efficiency.",
   },
   {
     id: 3,
     icon: entertain,
     title: "Entertainment Industry",
-    text: "Advert production, music album production, and concerts are a few of what our clients are engaged in. Our financial advisory service has helped our clients understand how to strategically place their business to ensure they are profitable.",
+    text: "We provide financial advisory services tailored to the unique needs of our clients in the Entertainment industry, including advert production, music album production, and concerts among others. Our expertise helps them to understand how to strategically place their business to ensure profitability.",
   },
   {
     id: 4,
     icon: marketing,
     title: "Marketing & Distribution",
-    text: "We serviced relocation firms, outdoor digital marketing firms (both in Nigeria and Ghana), online digital marketing firm (in Nigeria and Kenya), as well as companies providing haulage services to popular Fast Moving Consumer Goods brands.",
+    text: "We offer financial advisory services a wide array of clientele, including relocation companies, outdoor digital marketing firms in Nigeria and Ghana, online digital marketing firms in Nigeria and Kenya, and companies offering haulage services to well-known Fast Moving Consumer Goods (FMCG) brands. With our expertise, we provide financial strategies that enables our client grow, and thrive while also ensuring cost effective operations.",
   },
   {
     id: 5,
     icon: health,
     title: "Health Services",
-    text: "Accounting, internal control, and tax services to hospitals and pharmacies. Financial records of patients now align with the medical classifications in place. The accounting system mirrors physical inventory levels. Fast-moving inventory items identified, re-order level and expiry date of inventory monitored.",
+    text: "We specialize in delivering unique financial solutions to the healthcare industry, including hospitals and pharmacies. Our comprehensive services are designed to optimize operations and ensure compliance with industry-specific standards for accounting which ensures accuracy and compliance with healthcare regulations, customized internal control that mirrors physical inventory levels which enhances efficiency, identify fast moving inventory items, monitor re-order levels and track expiry dates to minimize waste and ensure consistent supply. Our team of experts also offer tax compliance and optimization services.",
   },
   {
     id: 6,
     icon: food,
     title: "Food and Hospitality",
-    text: "Accounting, internal control, and tax services to ala carte and boutique restaurants. Because we understand this industry, we have been able to design internal controls that are most suitable to our clients’ operations and adequate for record-keeping purposes.",
+    text: "We provide accounting, internal control, and tax services tailored for ala carte and boutique restaurants. Our expertise enables us to design customized internal controls that align perfectly with our clients' operations while ensuring robust record-keeping.",
   },
   {
     id: 7,
     icon: energy,
     title: "Energy & Manufacturing",
-    text: "We assisted our clients with their tax planning and compliance. We service clients involved in the manufacturing of food items as well as those manufacturing non-edible products.",
+    text: "We bring specialized financial expertise to the dynamic Energy and Manufacturing sector. Our team of experts are dedicated to helping businesses in this sector to effectively plan and manage their tax obligations through strategic tax planning services, considering industry specific regulations and incentives. Some our clients include food manufacturers and non-edible product manufacturers.",
   },
   {
     id: 8,
     icon: arg,
     title: "Agriculture",
-    text: "Our clients operate from the major nodes of the agriculture value chain. Production, haulage, storage, aggregation/commodity trading, processing & packaging. Our services include accounting, internal control design and deployment, tax planning, tax compliance, and financial advisory business plan, and financial model preparation for funding purposes.",
+    text: "We are dedicated to serving our clients across the entire agriculture value chain, working closely with those engaged in production, haulage, storage, aggregation & commodity trading, and processing & packaging. Our comprehensive suite of services is designed to enhance their financial well-being and strategic success include accounting, customized internal control and deployment, strategic tax planning, tax compliance, and financial advisory business plan, and financial model preparation for funding purposes.",
   },
 ];
 
