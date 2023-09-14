@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pwc/static/css/main.5d0233ed.css",
-    "main.js": "/pwc/static/js/main.879edb3e.js",
+    "main.css": "/pwc/static/css/main.f5a33c24.css",
+    "main.js": "/pwc/static/js/main.da2e05e4.js",
     "static/media/lagos2.jpg": "/pwc/static/media/lagos2.8d958e923493763ed0ec.jpg",
     "static/media/tiag.png": "/pwc/static/media/tiag.4624291ee91e37ae2a46.png",
     "static/media/logo.jpg": "/pwc/static/media/logo.74d8becae0d64c84b9ad.jpg",
     "static/media/logo1.jpg": "/pwc/static/media/logo1.74d8becae0d64c84b9ad.jpg",
     "index.html": "/pwc/index.html",
-    "main.5d0233ed.css.map": "/pwc/static/css/main.5d0233ed.css.map",
-    "main.879edb3e.js.map": "/pwc/static/js/main.879edb3e.js.map"
+    "main.f5a33c24.css.map": "/pwc/static/css/main.f5a33c24.css.map",
+    "main.da2e05e4.js.map": "/pwc/static/js/main.da2e05e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d0233ed.css",
-    "static/js/main.879edb3e.js"
+    "static/css/main.f5a33c24.css",
+    "static/js/main.da2e05e4.js"
   ]
 }
