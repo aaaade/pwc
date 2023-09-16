@@ -13,11 +13,13 @@ function Footer() {
     >
       <div className="flex flex-col md:flex-row justify-between gap-[4rem]">
         <div>
+          <a href="#home">
           <h3 className="text-2xl font-semibold">Porter's World Consult</h3>
+          </a>
           <p>Solutions For Every Type Of Business.</p>
           <p className="mt-[.5rem] text-[.8rem]">
             3rd Floor, NSE Building, 1, Engineering Close, <br />
-            Victoria Island, Lagos state, Nigeria
+            Victoria Island, Lagos, Nigeria
           </p>
         </div>
         <div>

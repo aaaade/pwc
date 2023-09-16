@@ -17,9 +17,7 @@ function About() {
         >
           <p>
             At Porter's World Consult, we are more than just financial & tax
-            experts; we are your trusted partners in success. With a deep
-            commitment to integrity, accountability, and transparency, we've
-            been a beacon of excellence service for years.
+            experts; we are your trusted partners in success. As a member of TIAG, TAG (A Worldwide Alliance of Independent Accounting Firms), we have a deep commitment to integrity, accountability, and transparency, being a beacon of excellent service for years to our wide and dynamic clientele across Africa.
           </p>
           <p>
             We specialize in delivering tailored professional service to a

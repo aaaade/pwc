@@ -23,7 +23,7 @@ const options = {
 
 function Testimonial() {
   return (
-    <div className="my-[3rem]" id="testimonials">
+    <div className="my-[3rem]" id="testimonial">
       <div className="app-container">
         <div className="mx-auto w-[80%]">
         <div className="w-fit mx-auto">
@@ -35,47 +35,11 @@ function Testimonial() {
           <OwlCarousel className="owl-theme" {...options}>
             <div className="bg-[#f1f5f6] p-2 md:p-8 text-[#666566]">
               <q className="italic text-[#666566]">
-                After I was wrongfully terminated as CEO, I asked several very
-                knowledgeable legal professionals for names of the best
-                litigation firms. Without exception or hesitation, each one told
-                me to hire the Robbins Firm. My former employer paid one of the
-                largest law firms in the country over one million dollars to
-                fight the case. The Robbins litigators prepared the case with
-                precision and an extraordinary eye for detail, had the most
-                brilliant courtroom strategy and presentation I’ve ever
-                witnessed, and delivered a decisive win. <br />
-                <br /> In my 30+ years of business experience, I have hired
-                dozens of top tier national law firms and spent millions on
-                legal fees and this is, by far, the most impressive team I’ve
-                ever worked with, which is why when friends ask me for names of
-                the best litigation firms, I tell them without exception or
-                hesitation to hire the Robbins Firm.
+              We have been with PW Consult for a while now and have enjoyed both the service and the team. Their service is carried out efficiently, professionally, and to a very high standard. They are always sincere, willing, and helpful. We have confidence that PW Consult will consistently support our business and support us toward further success.  We have no regrets about choosing PW Consult, and we have no hesitation in recommending the team.
               </q>
               <br />
               <br />
-              <strong>A.F., CEO of (another) Technology company</strong>
-            </div>
-            <div className="bg-[#f1f5f6] p-2 md:p-8 text-[#666566]">
-              <q className="italic text-[#666566]">
-                After I was wrongfully terminated as CEO, I asked several very
-                knowledgeable legal professionals for names of the best
-                litigation firms. Without exception or hesitation, each one told
-                me to hire the Robbins Firm. My former employer paid one of the
-                largest law firms in the country over one million dollars to
-                fight the case. The Robbins litigators prepared the case with
-                precision and an extraordinary eye for detail, had the most
-                brilliant courtroom strategy and presentation I’ve ever
-                witnessed, and delivered a decisive win. <br />
-                <br /> In my 30+ years of business experience, I have hired
-                dozens of top tier national law firms and spent millions on
-                legal fees and this is, by far, the most impressive team I’ve
-                ever worked with, which is why when friends ask me for names of
-                the best litigation firms, I tell them without exception or
-                hesitation to hire the Robbins Firm.
-              </q>
-              <br />
-              <br />
-              <strong>A.F., CEO of (another) Technology company</strong>
+              {/* <strong>A.F., CEO of (another) Technology company</strong> */}
             </div>
           </OwlCarousel>
         </div>
