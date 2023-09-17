@@ -12,9 +12,9 @@ function Navbar() {
       <div className=" flex justify-between items-center">
         <div className="flex gap-3 items-center">
           <div className="flex gap-4 items-center text-[#0D1A3C] md:border-r-2 border-[#0D1A3C] pr-4">
-            <div className="w-[3rem]">
+            <a href="#home" className="w-[3rem]">
               <img src={logo} alt="" />
-            </div>
+            </a>
             <p className="hidden md:block font-medium text-[1rem] leading-5">
               PW 
               Consult
