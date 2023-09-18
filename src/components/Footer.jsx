@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../images/logo.jpg";
 import fb from "../images/fb.png";
 import insta from "../images/insta.png";
-import tw from "../images/tw.png";
+import tw from "../images/tw1.png";
 import link from "../images/link.png";
 
 function Footer() {
@@ -81,7 +81,7 @@ function Footer() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={tw} alt="" />
+                  <img src={tw} alt="" className="w-[2.2rem]"/>
                 </a>
               </li>
             </ul>
