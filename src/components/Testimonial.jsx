@@ -39,7 +39,7 @@ function Testimonial() {
               </q>
               <br />
               <br />
-              {/* <strong>A.F., CEO of (another) Technology company</strong> */}
+              <strong>Chris Quintero, Managing Director of Coship Company</strong>
             </div>
           </OwlCarousel>
         </div>
