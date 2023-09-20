@@ -94,4 +94,4 @@ function Footer() {
 
 export default Footer;
 
-const navLinkList = ["home", "about", "services", "testimonial", "blog"];
+const navLinkList = ["home", "about", "services", "testimonial"];

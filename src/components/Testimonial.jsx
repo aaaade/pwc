@@ -26,20 +26,44 @@ function Testimonial() {
     <div className="my-[3rem]" id="testimonial">
       <div className="app-container">
         <div className="mx-auto w-[80%]">
-        <div className="w-fit mx-auto">
-          <h3 className="text-2xl font-medium text-[#009FE3] mb-[.5rem] border-b border-[#0D1A3C] pb-1">
-            Trusted Across Various Industries
-          </h3>
-          <p className="text-[.8rem] text-center mb-4">Know our worth and value</p>
-        </div>
+          <div className="w-fit mx-auto">
+            <h3 className="text-2xl font-medium text-[#009FE3] mb-[.5rem] border-b border-[#0D1A3C] pb-1">
+              Trusted Across Various Industries
+            </h3>
+            <p className="text-[.8rem] text-center mb-4">
+              Know our worth and value
+            </p>
+          </div>
           <OwlCarousel className="owl-theme" {...options}>
             <div className="bg-[#f1f5f6] p-2 md:p-8 text-[#666566]">
               <q className="italic text-[#666566]">
-              We have been with PW Consult for a while now and have enjoyed both the service and the team. Their service is carried out efficiently, professionally, and to a very high standard. They are always sincere, willing, and helpful. We have confidence that PW Consult will consistently support our business and support us toward further success.  We have no regrets about choosing PW Consult, and we have no hesitation in recommending the team.
+                We have been with PW Consult for a while now and have enjoyed
+                both the service and the team. Their service is carried out
+                efficiently, professionally, and to a very high standard. They
+                are always sincere, willing, and helpful. We have confidence
+                that PW Consult will consistently support our business and
+                support us toward further success. We have no regrets about
+                choosing PW Consult, and we have no hesitation in recommending
+                the team.
               </q>
               <br />
               <br />
-              <strong>Chris Quintero, Managing Director of Coship Company</strong>
+              <strong>
+                Chris Quintero, Managing Director of Coship Company
+              </strong>
+            </div>
+            <div className="bg-[#f1f5f6] p-2 md:p-8 text-[#666566]">
+              <q className="italic text-[#666566]">
+                We have enjoyed a seamless working relationship with the
+                Porters' World Consult team over the past 4 years. The team is
+                reliable and readily available to provide advisory services when
+                called upon. Worthy of note also is their competitive pricing
+                for services rendered. We are happy to have had the opportunity
+                to work with you.
+              </q>
+              <br />
+              <br />
+              <strong>Rasaq Ahmed, CEO/Co-founder of Cowrywise Company</strong>
             </div>
           </OwlCarousel>
         </div>
